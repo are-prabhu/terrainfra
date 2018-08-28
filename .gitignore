@@ -1,0 +1,56 @@
+__pycache__
+*.pyc
+*.swp
+ec2_amazon-ebs.pem
+.DS_Store
+.terraform
+*.tfstate.backup
+terraform.tfstate
+terraform.tfstate.*.backup
+terraform/**/*secret*
+
+# to mark files as ignored by git
+*.ignore
+
+# env
+.python-version
+
+# ide
+.idea
+
+# pytest
+.cache/
+
+
+# Ignore bundler config.
+/.bundle
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+*~
+.#*
+#*
+.DS_Store
+._.DS_Store
+._*
+*.fuse_hidden*
+Gemfile.lock
+Berksfile.lock
+.yardoc/
+Thumbs.db
+.ruby-version
+.env
+vendor/cookbooks
+packer_virtualbox-iso_virtualbox.box
+.vagrant/
+Vagrantfile
+packer_cache/
+output-virtualbox-iso/
+.kitchen/
+.kitchen.local.yml
+.chef/*
+.testing/*
+/encrypted_databag_secret
